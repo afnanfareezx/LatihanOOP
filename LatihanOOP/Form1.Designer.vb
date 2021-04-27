@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtNoMatrik = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -35,23 +35,23 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nombor Matrik"
         '
-        'TextBox1
+        'txtNoMatrik
         '
-        Me.TextBox1.Location = New System.Drawing.Point(12, 28)
-        Me.TextBox1.MaxLength = 12
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 1
+        Me.txtNoMatrik.Location = New System.Drawing.Point(12, 28)
+        Me.txtNoMatrik.MaxLength = 12
+        Me.txtNoMatrik.Name = "txtNoMatrik"
+        Me.txtNoMatrik.Size = New System.Drawing.Size(100, 22)
+        Me.txtNoMatrik.TabIndex = 1
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(496, 291)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtNoMatrik)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Text = "Latihan OOP"
         Me.ResumeLayout(False)
@@ -60,5 +60,5 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtNoMatrik As TextBox
 End Class
